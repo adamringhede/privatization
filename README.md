@@ -7,7 +7,7 @@ Add encapsulation to prototypes in Javascript.
 ```JS
 function Person(n) {
     this._name = n;
-    private(this, '_');
+    privatize(this, '_');
 }
 Person.prototype._format = function () {
     return 'Hi, my name is ' + this.name;
