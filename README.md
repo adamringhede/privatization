@@ -1,7 +1,7 @@
 privatization
 =============
 
-Add encapsulation to prototypes in Javascript.
+Add encapsulation to objects in Javascript.
 
 ### Example definition
 ```JS
