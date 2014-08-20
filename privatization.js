@@ -1,5 +1,5 @@
 function privatize(that, pf, callback) {
-    var prefix = pf || '$', // Default to dollar sign;
+    var prefix = pf || '_', // Default to dollar sign;
         newscope = {},
         init;
     for (var name in that) {
