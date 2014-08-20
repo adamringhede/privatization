@@ -3,7 +3,7 @@ function privatize(that, pf, callback) {
         newscope = {},
         init;
     for (var name in that) {
-        if (name[0] === prefix) {
+        if (name.substr(0, prefix.length) === prefix) {
             var nname = name.replace(prefix, '');
             if (nname === 'init') {
                 init = that[name];
