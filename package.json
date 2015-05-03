@@ -1,0 +1,23 @@
+{
+  "name": "privatization",
+  "version": "1.0.0",
+  "description": "Add encapsulation to objects in javascript using private members",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamringhede/privatization.git"
+  },
+  "keywords": [
+    "encapsulation",
+    "private"
+  ],
+  "author": "Adam Ringhede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamringhede/privatization/issues"
+  },
+  "homepage": "https://github.com/adamringhede/privatization"
+}
