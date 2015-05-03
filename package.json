@@ -1,6 +1,6 @@
 {
   "name": "privatization",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add encapsulation to objects in javascript using private members",
   "main": "index.js",
   "scripts": {
