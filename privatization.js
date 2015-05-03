@@ -16,7 +16,7 @@ function privatize(that, pf, callback) {
             if (typeof that[name] === 'function') {
                 var tf = that[name]; // Store a copy to prevent recursion
                 that[name] = function () {
-                    tf.apply(newscope, arguments);
+                    return tf.apply(newscope, arguments);
                 };
             }
         }
@@ -30,3 +30,4 @@ function privatize(that, pf, callback) {
         init.call(newscope);
     }
 }
+module.exports = privatize;
